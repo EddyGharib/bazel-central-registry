@@ -82,17 +82,17 @@ index 0000000..c0a635c
 +    ],
 +)
 +
-+# cc_library(
-+#     name = "asio_ssl",
-+#     srcs = [
-+#         "//:build_asio_ssl.cpp",
-+#     ],
-+#     visibility = ["//visibility:public"],
-+#     deps = [
-+#         ":asio",
-+#         "@boringssl//:ssl",
-+#     ],
-+# )
++cc_library(
++    name = "asio_ssl",
++    srcs = [
++        "//:build_asio_ssl.cpp",
++    ],
++    visibility = ["//visibility:public"],
++    deps = [
++        ":asio",
++        "@boringssl//:ssl",
++    ],
++)
 diff --git a/MODULE.bazel b/MODULE.bazel
 new file mode 100755
 index 0000000..5811d9d

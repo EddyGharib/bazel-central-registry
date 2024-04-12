@@ -49,7 +49,7 @@ index 0000000..bf67674
 +        "@boost//:static_string",
 +        "@boost//:system",
 +        "@boost//:throw_exception",
-+        "@boost//:tribool",
++        "@boost//:logic",
 +        "@boost//:type_traits",
 +        "@boost//:utility",
 +    ],
