@@ -1,0 +1,105 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000000..c6e44d8b86
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,98 @@
++load("@rules_foreign_cc//foreign_cc:defs.bzl", "cmake")
++
++filegroup(
++    name = "all_srcs",
++    srcs = glob(["**"]),
++    visibility = ["//visibility:public"],
++)
++
++cmake(
++    name = "opencv",
++    lib_source = ":all_srcs",
++    build_args = ["-j"],
++    out_shared_libs = [
++        "libopencv_calib3d.so",
++        "libopencv_calib3d.so.4.9.0",
++        "libopencv_calib3d.so.409",
++        "libopencv_core.so",
++        "libopencv_core.so.4.9.0",
++        "libopencv_core.so.409",
++        "libopencv_dnn.so",
++        "libopencv_dnn.so.4.9.0",
++        "libopencv_dnn.so.409",
++        "libopencv_features2d.so",
++        "libopencv_features2d.so.4.9.0",
++        "libopencv_features2d.so.409",
++        "libopencv_flann.so",
++        "libopencv_flann.so.4.9.0",
++        "libopencv_flann.so.409",
++        "libopencv_highgui.so",
++        "libopencv_highgui.so.4.9.0",
++        "libopencv_highgui.so.409",
++        "libopencv_imgcodecs.so",
++        "libopencv_imgcodecs.so.4.9.0",
++        "libopencv_imgcodecs.so.409",
++        "libopencv_imgproc.so",
++        "libopencv_imgproc.so.4.9.0",
++        "libopencv_imgproc.so.409",
++        "libopencv_ml.so",
++        "libopencv_ml.so.4.9.0",
++        "libopencv_ml.so.409",
++        "libopencv_objdetect.so",
++        "libopencv_objdetect.so.4.9.0",
++        "libopencv_objdetect.so.409",
++        "libopencv_photo.so",
++        "libopencv_photo.so.4.9.0",
++        "libopencv_photo.so.409",
++        "libopencv_stitching.so",
++        "libopencv_stitching.so.4.9.0",
++        "libopencv_stitching.so.409",
++        "libopencv_video.so",
++        "libopencv_video.so.4.9.0",
++        "libopencv_video.so.409",
++        "libopencv_videoio.so",
++        "libopencv_videoio.so.4.9.0",
++        "libopencv_videoio.so.409",
++    ],
++    includes = ["opencv4"],
++    visibility = ["//visibility:public"],
++)
++
++cmake(
++    name = "opencv_static",
++    lib_source = ":all_srcs",
++    cache_entries = {
++       "BUILD_SHARED_LIBS": "OFF"
++    },
++    build_args = ["-j"],
++    out_static_libs = [
++        "opencv4/3rdparty/libade.a",
++        "opencv4/3rdparty/libIlmImf.a",
++        "opencv4/3rdparty/libippicv.a",
++        "opencv4/3rdparty/libippiw.a",
++        "opencv4/3rdparty/libittnotify.a",
++        "opencv4/3rdparty/liblibjpeg-turbo.a",
++        "opencv4/3rdparty/liblibopenjp2.a",
++        "opencv4/3rdparty/liblibpng.a",
++        "opencv4/3rdparty/liblibprotobuf.a",
++        "opencv4/3rdparty/liblibtiff.a",
++        "opencv4/3rdparty/liblibwebp.a",
++        "opencv4/3rdparty/libzlib.a",
++        "libopencv_calib3d.a",
++        "libopencv_core.a",
++        "libopencv_dnn.a",
++        "libopencv_features2d.a",
++        "libopencv_flann.a",
++        "libopencv_highgui.a",
++        "libopencv_imgcodecs.a",
++        "libopencv_imgproc.a",
++        "libopencv_ml.a",
++        "libopencv_objdetect.a",
++        "libopencv_photo.a",
++        "libopencv_stitching.a",
++        "libopencv_video.a",
++        "libopencv_videoio.a",
++    ],
++    includes = ["opencv4"],
++    visibility = ["//visibility:public"],
++)
+\ No newline at end of file

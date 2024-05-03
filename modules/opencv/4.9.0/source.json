@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-3fdvnf/TIsfDyx9yHQiH9i10e4IFk0IhMTjcGQ8ovGw=",
+    "patches": {
+        "add_build_file.patch": "sha256-/sDH8+653itLubxdfp2anExaLvLWrDxyqiTpkPAbc4A="
+    },
+    "patch_strip": 0,
+    "strip_prefix": "opencv-4.9.0",
+    "url": "https://github.com/opencv/opencv/archive/refs/tags/4.9.0.tar.gz"
+}

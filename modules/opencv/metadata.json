@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/opencv/opencv",
+    "maintainers": [
+        {
+            "email": "eddy.gharib@idealworks.com",
+            "github": "eddygharib",
+            "name": "Eddy Gharib"
+        }
+    ],
+    "repository": [
+        "github:opencv/opencv"
+    ],
+    "versions": [
+        "4.9.0"
+    ],
+    "yanked_versions": {}
+}
