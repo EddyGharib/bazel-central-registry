@@ -1,7 +1,7 @@
 {
     "integrity": "sha256-3fdvnf/TIsfDyx9yHQiH9i10e4IFk0IhMTjcGQ8ovGw=",
     "patches": {
-        "add_build_file.patch": "sha256-/sDH8+653itLubxdfp2anExaLvLWrDxyqiTpkPAbc4A="
+        "add_build_file.patch": "sha256-dJ/oc1iRxp36AlLt9vIr8IRsPp6LuQRObd0e5V/bGhU="
     },
     "patch_strip": 0,
     "strip_prefix": "opencv-4.9.0",
