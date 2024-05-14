@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/erickj/bazel_json",
+    "maintainers": [
+        {
+            "email": "eddy.gharib@idealworks.com",
+            "github": "eddygharib",
+            "name": "Eddy Gharib"
+        }
+    ],
+    "repository": [
+        "github:erickj/bazel_json"
+    ],
+    "versions": [
+        "1.0.0"
+    ],
+    "yanked_versions": {}
+}
