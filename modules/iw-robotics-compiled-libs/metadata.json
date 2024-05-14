@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/idealworks/iw-robotics-compiled-libs",
+    "maintainers": [
+        {
+            "email": "eddy.gharib@idealworks.com",
+            "github": "eddygharib",
+            "name": "Eddy Gharib"
+        }
+    ],
+    "repository": [
+        "github:idealworks/iw-robotics-compiled-libs"
+    ],
+    "versions": [
+        "1.0.0"
+    ],
+    "yanked_versions": {}
+}

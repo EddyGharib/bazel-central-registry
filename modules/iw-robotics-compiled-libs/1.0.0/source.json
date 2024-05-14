@@ -1,0 +1,7 @@
+{
+    "type": "git_repository",
+    "integrity": "sha256-F8Un3oCYcDEnJjKTeVRfsvGtzNRpI4qRlk9IUSAssws=",
+    "patch_strip": 0,
+    "remote": "git@github.com:idealworks/iw-robotics-compiled-libs.git",
+    "commit": "0eda644ffbe9a3ba5854c897783162e5689bfc33"
+}
