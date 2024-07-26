@@ -10,8 +10,7 @@
     "github:zaphoyd/websocketpp"
   ],
   "versions": [
-    "0.8.2",
-    "0.8.2.bcr.1"
+    "0.8.2"
   ],
   "yanked_versions": {}
 }

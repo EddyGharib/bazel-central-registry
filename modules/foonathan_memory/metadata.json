@@ -10,8 +10,7 @@
     "github:foonathan/memory"
   ],
   "versions": [
-    "0.7.3",
-    "0.7.3.bcr.1"
+    "0.7.3"
   ],
   "yanked_versions": {}
 }

@@ -11,8 +11,7 @@
         "github:tinyobjloader/tinyobjloader"
     ],
     "versions": [
-        "2.0.0-rc1",
-        "2.0.0-rc1.bcr.1"
+        "2.0.0-rc1"
     ],
     "yanked_versions": {}
 }

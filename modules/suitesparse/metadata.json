@@ -8,11 +8,10 @@
         }
     ],
     "repository": [
-        "github:DrTimothyAldenDavis/SuiteSparse"
+      "github:DrTimothyAldenDavis/SuiteSparse"
     ],
     "versions": [
-        "7.6.0",
-        "7.6.0.bcr.1"
+        "7.6.0"
     ],
     "yanked_versions": {}
 }

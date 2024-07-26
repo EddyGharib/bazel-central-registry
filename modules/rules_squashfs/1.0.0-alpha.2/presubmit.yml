@@ -14,7 +14,7 @@ bcr_test_module:
       # - macos
       # - macos_arm64
   tasks:
-    e2e_tests:
+    run_tests:
       name: Run end-to-end Tests
       bazel: ${{ bazel }}
       platform: ${{ platform }}
