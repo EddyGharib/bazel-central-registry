@@ -11,7 +11,9 @@
         "github:idealworks/iw-robotics-compiled-libs"
     ],
     "versions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1",
+        "1.0.2"
     ],
     "yanked_versions": {}
 }
