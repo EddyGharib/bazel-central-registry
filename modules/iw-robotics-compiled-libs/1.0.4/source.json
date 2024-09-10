@@ -3,5 +3,5 @@
   "integrity": "sha256-F8Un3oCYcDEnJjKTsaefsvGtzNRpI4qRlk9iuSAssWs=",
   "patch_strip": 0,
   "remote": "git@github.com:idealworks/iw-robotics-compiled-libs.git",
-  "commit": "0800206d5e7d91e3bdcdc74e33eb9b18edd25a60"
+  "commit": "a5f556858c0719910514e94fe70ea8bb07dbf12c"
 }
