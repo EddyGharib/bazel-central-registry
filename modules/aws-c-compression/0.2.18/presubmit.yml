@@ -1,0 +1,4 @@
+platforms:
+  ubuntu2004:
+    build_targets:
+    - 'aws-c-compression//:aws-c-compression'

@@ -1,0 +1,23 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000..857d19f
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,17 @@
++cc_library(
++    name = "aws-c-sdkutils",
++    srcs = glob([
++        "source/*.c",
++        "include/aws/sdkutils/private/*.h",
++    ]),
++    hdrs = glob([
++        "include/aws/sdkutils/*.h",
++    ]),
++    includes = [
++        "include",
++    ],
++    deps = [
++        "@aws-c-common",
++    ],
++    visibility = ["//visibility:public"],
++)

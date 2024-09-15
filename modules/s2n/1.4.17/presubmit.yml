@@ -1,0 +1,4 @@
+platforms:
+  ubuntu2004:
+    build_targets:
+    - 's2n//:s2n'

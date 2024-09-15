@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-vbqdCouDMKica4y8ALmqFPQD00SbN/8uDZbWKnMBsu4=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-7P2vM+MMiXSg1nTUVtBVIbcw7zGXgnEK0qqtGVFiyG4="
+    },
+    "strip_prefix": "aws-checksums-0.1.18",
+    "url": "https://github.com/awslabs/aws-checksums/archive/refs/tags/v0.1.18.tar.gz"
+}

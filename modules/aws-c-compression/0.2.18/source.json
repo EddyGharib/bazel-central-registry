@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-UXw2Hzt//8oI79WtJRogSJeU8FbqsN//rMbVs0HfjoY=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-nySOdQXYpXfNzpck9ya0WRLECYzLjQ7+RmhV7XVJ8oU="
+    },
+    "strip_prefix": "aws-c-compression-0.2.18",
+    "url": "https://github.com/awslabs/aws-c-compression/archive/refs/tags/v0.2.18.tar.gz"
+}

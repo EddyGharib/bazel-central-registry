@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-io",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-c-io"
+  ],
+  "versions": [
+    "0.14.11",
+  ],
+  "yanked_versions": {}
+}

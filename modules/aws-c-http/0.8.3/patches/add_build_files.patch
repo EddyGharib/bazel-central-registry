@@ -1,0 +1,37 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000..b97f407
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,20 @@
++cc_library(
++    name = "aws-c-http",
++    srcs = glob([
++        "source/*.c",
++        "include/aws/http/private/*.h",
++    ]),
++    hdrs = glob([
++        "include/aws/http/*.h",
++        "include/aws/http/private/*.def",
++    ]),
++    includes = [
++        "include",
++    ],
++    deps = [
++        "@aws-c-common",
++        "@aws-c-compression",
++        "@aws-c-io",
++    ],
++    visibility = ["//visibility:public"],
++)
+diff --git bin/BUILD bin/BUILD
+new file mode 100644
+index 0000000..02fbe24
+--- /dev/null
++++ bin/BUILD
+@@ -0,0 +1,5 @@
++cc_binary(
++    name = "elasticurl",
++    srcs = ["elasticurl/main.c"],
++    deps = ["//:aws-c-http"],
++)

@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-rfg42vamCqMSaFIhBbAyYtdF9Sm8mB06xmVCQTPW+Rs=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_and_config_files.patch": "sha256-818rs3BzEXk5ewxh1v7FQV38UqBsZBu7WCMaPCOtFII="
+    },
+    "strip_prefix": "aws-c-common-0.9.23",
+    "url": "https://github.com/awslabs/aws-c-common/archive/refs/tags/v0.9.23.tar.gz"
+}

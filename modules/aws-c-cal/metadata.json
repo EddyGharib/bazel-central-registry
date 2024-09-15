@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-cal",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-c-cal"
+  ],
+  "versions": [
+    "0.7.1",
+  ],
+  "yanked_versions": {}
+}

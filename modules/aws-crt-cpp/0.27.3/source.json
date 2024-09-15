@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-4lzXz8cxYDNDRCxL1Kd5xj7LEA7Qh+9opeLZflxdU5A=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-i5vXCzXnGu1wy9Wn0aFzdg1vlA1NI8qBB3MrNTHFeDg="
+    },
+    "strip_prefix": "aws-crt-cpp-0.27.3",
+    "url": "https://github.com/awslabs/aws-crt-cpp/archive/refs/tags/v0.27.3.tar.gz"
+}

@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-event-stream",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-c-event-stream"
+  ],
+  "versions": [
+    "0.4.2",
+  ],
+  "yanked_versions": {}
+}

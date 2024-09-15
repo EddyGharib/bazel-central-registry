@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-sdkutils",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-c-sdkutils"
+  ],
+  "versions": [
+    "0.1.16",
+  ],
+  "yanked_versions": {}
+}

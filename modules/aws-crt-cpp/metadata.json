@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-crt-cpp",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-crt-cpp"
+  ],
+  "versions": [
+    "0.27.3",
+  ],
+  "yanked_versions": {}
+}

@@ -1,0 +1,5 @@
+module(
+    name = "aws-c-common",
+    version = "0.9.23",
+    compatibility_level = 1,
+)
