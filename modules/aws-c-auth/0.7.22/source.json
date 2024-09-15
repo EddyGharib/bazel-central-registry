@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-8kmhKmrDGekpwAX7fv1VNMg9OvOjpTciYm/2CklAVLs=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-GqmeNoKEEW+223ix0WLZF6tP4ifsx1IlDA+22NIwCjo="
+    },
+    "strip_prefix": "aws-c-auth-0.7.22",
+    "url": "https://github.com/awslabs/aws-c-auth/archive/refs/tags/v0.7.22.tar.gz"
+}

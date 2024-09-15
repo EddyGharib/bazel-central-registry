@@ -1,0 +1,24 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000..836a640
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,18 @@
++cc_library(
++    name = "aws-c-compression",
++    srcs = glob([
++        "source/*.c",
++        "source/huffman-generator/*.c",
++        "include/aws/compression/private/*.h",
++    ]),
++    hdrs = glob([
++        "include/aws/compression/*.h",
++    ]),
++    includes = [
++        "include",
++    ],
++    deps = [
++        "@aws-c-common",
++    ],
++    visibility = ["//visibility:public"],
++)

@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-4lzXz8cxYDNDRCxL1Kd5xj7LEA7Qh+9opeLZflxdU5A=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-tzfPQmLlH5Q1+zHsineY4SymELvcZHVn0pWn3172oI0="
+    },
+    "strip_prefix": "aws-c-s3-0.6.1",
+    "url": "https://github.com/awslabs/aws-c-s3/archive/refs/tags/v0.6.1.tar.gz"
+}

@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/aws-c-http",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/aws-c-http"
+  ],
+  "versions": [
+    "0.8.3",
+  ],
+  "yanked_versions": {}
+}

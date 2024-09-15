@@ -1,17 +1,22 @@
 {
-  "homepage": "https://www.boost.org/doc/libs/release/libs/exception/doc/html/index.html",
-  "maintainers": [
-    {
-      "email": "dev@rdxip.com",
-      "github": "Attempt3035",
-      "name": "Luke Aguilar"
-    }
-  ],
-  "repository": [
-    "github:boostorg/exception"
-  ],
-  "versions": [
-    "1.83.0.bcr.1"
-  ],
-  "yanked_versions": {}
+    "homepage": "http://boost.org/libs/exception",
+    "maintainers": [
+        {
+            "email": "daisuke.nishimatsu1021@gmail.com",
+            "github": "wep21",
+            "name": "Daisuke Nishimatsu"
+        },
+        {
+            "email": "julian.amann@tum.de",
+            "github": "Vertexwahn",
+            "name": "Julian Amann"
+        }
+    ],
+    "repository": [
+        "github:boostorg/exception"
+    ],
+    "versions": [
+        "1.83.0"
+    ],
+    "yanked_versions": {}
 }

@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/awslabs/s2n",
+  "maintainers": [
+    {
+      "email": "eddy.gharib@idealworks.com",
+      "name": "Eddy Gharib"
+    }
+  ],
+  "repository": [
+    "github:awslabs/s2n"
+  ],
+  "versions": [
+    "1.4.17",
+  ],
+  "yanked_versions": {}
+}

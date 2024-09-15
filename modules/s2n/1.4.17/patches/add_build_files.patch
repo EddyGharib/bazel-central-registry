@@ -1,0 +1,58 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 000000000..836978090
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,24 @@
++cc_library(
++    name = "s2n",
++    srcs = glob([
++        "crypto/*.c",
++        "error/*.c",
++        "stuffer/*.c",
++        "tls/*.c",
++        "tls/extensions/*.c",
++        "utils/*.c",
++    ]),
++    hdrs = glob([
++        "api/*.h",
++        "api/unstable/*.h",
++        "crypto/*.h",
++        "error/*.h",
++        "stuffer/*.h",
++        "tls/*.h",
++        "tls/extensions/*.h",
++        "utils/*.h",
++    ]),
++    includes = ["api"],
++    deps = ["@boringssl//:ssl"],
++    visibility = ["//visibility:public"],
++)
+diff --git bin/BUILD bin/BUILD
+new file mode 100644
+index 000000000..0a581619e
+--- /dev/null
++++ bin/BUILD
+@@ -0,0 +1,22 @@
++cc_binary(
++    name = "s2nc",
++    srcs = [
++        "s2nc.c",
++        "echo.c",
++        "common.c",
++        "common.h",
++    ],
++    deps = ["//:s2n"],
++)
++
++cc_binary(
++    name = "s2nd",
++    srcs = [
++        "s2nd.c",
++        "echo.c",
++        "https.c",
++        "common.c",
++        "common.h",
++    ],
++    deps = ["//:s2n"],
++)

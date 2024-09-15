@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-bzABpplvn/7WWA5uaA962ggRtiBca0QrASTyIUvjhro=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-tD7xpvIkRZ4cSqhTf7hRycVlTRzhcb8+VVGJt2pB428="
+    },
+    "strip_prefix": "aws-c-http-0.8.3",
+    "url": "https://github.com/awslabs/aws-c-http/archive/refs/tags/v0.8.3.tar.gz"
+}

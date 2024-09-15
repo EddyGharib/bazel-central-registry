@@ -1,0 +1,24 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000..97f7d77
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,18 @@
++cc_library(
++    name = "aws-checksums",
++    srcs = glob([
++        "source/*.c",
++        "source/generic/*.c",
++        "include/aws/checksums/private/*.h",
++    ]),
++    hdrs = glob([
++        "include/aws/checksums/*.h",
++    ]),
++    includes = [
++        "include",
++    ],
++    deps = [
++        "@aws-c-common",
++    ],
++    visibility = ["//visibility:public"],
++)

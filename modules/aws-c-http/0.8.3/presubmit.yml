@@ -1,0 +1,4 @@
+platforms:
+  ubuntu2004:
+    build_targets:
+    - 'aws-c-http//:aws-c-http'

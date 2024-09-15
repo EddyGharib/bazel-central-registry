@@ -1,0 +1,50 @@
+diff --git BUILD BUILD
+new file mode 100644
+index 0000000..ef71775
+--- /dev/null
++++ BUILD
+@@ -0,0 +1,21 @@
++cc_library(
++    name = "aws-c-mqtt",
++    srcs = glob([
++        "source/*.c",
++        "source/v5/*.c",
++        "include/aws/mqtt/private/*.h",
++        "include/aws/mqtt/private/v5/*.h",
++    ]),
++    hdrs = glob([
++        "include/aws/mqtt/*.h",
++        "include/aws/mqtt/v5/*.h",
++    ]),
++    includes = [
++        "include",
++    ],
++    deps = [
++        "@aws-c-common",
++        "@aws-c-http",
++    ],
++    visibility = ["//visibility:public"],
++)
+diff --git bin/BUILD bin/BUILD
+new file mode 100644
+index 0000000..9014732
+--- /dev/null
++++ bin/BUILD
+@@ -0,0 +1,17 @@
++cc_binary(
++    name = "elastipubsub",
++    srcs = ["elastipubsub/main.c"],
++    deps = ["//:aws-c-mqtt"],
++)
++
++cc_binary(
++    name = "elastipubsub5",
++    srcs = ["elastipubsub5/main.c"],
++    deps = ["//:aws-c-mqtt"],
++)
++
++cc_binary(
++    name = "mqtt5canary",
++    srcs = ["mqtt5canary/main.c"],
++    deps = ["//:aws-c-mqtt"],
++)

@@ -1,0 +1,4 @@
+platforms:
+  ubuntu2004:
+    build_targets:
+    - 'aws-crt-cpp//:aws-crt-cpp'

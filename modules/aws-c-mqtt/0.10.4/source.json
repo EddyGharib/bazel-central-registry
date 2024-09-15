@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-akFFb57uFdceTi7hYrNUhlgJ8mYg8eblrLI38ZD3fz8=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-ikFU4fBB8s51O2hFBIfqY+lKcSUR1Rr4mrCIXffb1SY="
+    },
+    "strip_prefix": "aws-c-mqtt-0.10.4",
+    "url": "https://github.com/awslabs/aws-c-mqtt/archive/refs/tags/v0.10.4.tar.gz"
+}

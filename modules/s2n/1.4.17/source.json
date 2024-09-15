@@ -1,0 +1,9 @@
+{
+    "integrity": "sha256-UjXNLJJria55Wx5rUVjc5ZjJ55EgIItLzY0ZzgTYaYY=",
+    "patch_strip": 0,
+    "patches": {
+        "add_build_files.patch": "sha256-ILINepE1aJRHM9h9Xv4L2SM65Y2AO4XtbKd0hVYzYGU="
+    },
+    "strip_prefix": "s2n-tls-1.4.17",
+    "url": "https://github.com/awslabs/s2n/archive/refs/tags/v1.4.17.tar.gz"
+}
