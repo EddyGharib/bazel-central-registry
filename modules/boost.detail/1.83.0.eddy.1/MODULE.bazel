@@ -5,7 +5,7 @@ Note: These modules follow a circular dependency structure on the boost module h
 
 module(
     name = "boost.detail",
-    version = "1.83.0.bcr.1",
+    version = "1.83.0.eddy.1",
     compatibility_level = 1,
 )
 
