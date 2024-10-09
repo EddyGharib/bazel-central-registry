@@ -1,0 +1,5 @@
+module(name = "iw-robotics-compiled-libs", version = "1.0.6")
+
+bazel_dep(name = "starlark_bazel_json", version = "1.0.0")
+bazel_dep(name = "platforms", version = "0.0.10")
+bazel_dep(name = "boringssl", version = "0.20240913.0")

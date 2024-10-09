@@ -1,0 +1,5 @@
+{
+  "type": "git_repository",
+  "remote": "git@github.com:idealworks/iw-robotics-compiled-libs.git",
+  "commit": "2afd8880db2e3fe3e7031ff94109d312cba3c01f"
+}
